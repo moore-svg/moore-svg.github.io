@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+ 
+}
+
+a {
+color: antiquewhite;
+}
+
+.row {
+  width: 100%;
+  height: 200%;
+}
+
+.finder {
+  font-weight: 800;
+  width: 50px;
+}
+
+.finder1 {
+  font-weight: 800;
+  width: 50px;
+  color: rgb(223, 218, 218);
+}
+
+span {
+  font-size: 30px;
+  color: #fff;
+}
+
+label {
+  color: rgb(175, 172, 172);
+}
+
+.text-secondary {
+  margin-left: 100px;
+}
+
+.form-control-dark {
+  color: #fff;
+  background-color: var(--bs-dark);
+  border-color: var(--bs-gray);
+}
+
+.text-small {
+  font-size: 85%;
+}
+
+footer {
+  margin-right: 30px;
+  width: 100%;
+  height: 70px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://3mtt.altschoolafrica.com/wp-content/uploads/2022/02/alt__schol.png);
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+/* Carousel base class */
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 90rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
